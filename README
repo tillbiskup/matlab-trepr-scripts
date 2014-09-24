@@ -1,0 +1,27 @@
+INTRODUCTION
+
+This repository contains files that are meant for use with the trEPR toolbox written for Matlab(r), in particular for the command line feature (CMD) integrated in the main GUI window of that toolbox.
+
+The idea is to provide users of this toolbox with a set of easy-to-use scripts for daily use and routine tasks that would otherwise need a few clicks each.
+
+Another aspect of these scripts is aimed at developers: A set of tests that can be run to ensure at least a very basic functionality. Of course this is much less than a proper unit testing framework, but for a GUI perhaps something worth considering for the meantime.
+
+Currently, the idea is to have a set of subdirectories for different tasks (such as "tests" for all the tests). Ideally users either checkout this repository directly into their toolbox scripts directory or they link it in there.
+
+As there is currently such thing as a "default scripts directory" in the trEPR toolbox (starting with version 0.3.49, namely $HOME/.trepr/scripts), it seems wise to use this structure.
+
+
+COPYRIGHT
+
+The project as a whole is: 
+
+Copyright (c) 2014, Till Biskup
+
+The copyright holders of the individual files can be found in each of these files. 
+
+All files are distributed under the GNU LGPL. For details, see the files
+
+  * LICENSE
+  * COPYING
+  * COPYING.LESSER
+
