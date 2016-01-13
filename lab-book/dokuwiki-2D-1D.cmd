@@ -10,8 +10,8 @@
 %          for the MS Windows(r) platform yet (due to relying on the 
 %          program ImageMagick internally).
 
-% Copyright (c) 2014, Till Biskup
-% 2014-09-24
+% Copyright (c) 2014-15, Till Biskup
+% 2015-06-14
 
 % Get current dataset number
 define currentDataset = $current
@@ -32,7 +32,7 @@ export fig type=pdf caption=n $date-$savefilename-2D
 pdf2bitmap $date-$savefilename-2D
 
 % AVG and export 1D plot
-input avgxwindow
+input avgxwindow preset=5e-7;2e-7 Average window (avg x) 
 avg x $avgxwindow
 show $ndatasets
 show only active
